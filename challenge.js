@@ -26,7 +26,7 @@ function store_username() {
 	set_username.style.display="none";
 
 	var game;
-	game = document.getElementById("game");
+	game = document.getElementById("games");
 	game.style.display="inline";
 
 	start_game();
