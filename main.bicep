@@ -14,7 +14,7 @@ var tags = {
 
 resource storageAccount 'Microsoft.Storage/storageAccounts@2022-05-01' = {
   name: storageAccounttest3
-  location: CentralUS
+  location: location
   tags: tags
   sku: {
     name: 'Standard_LRS'
